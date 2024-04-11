@@ -1,15 +1,18 @@
 {
-  "dependencies": {
-    "express": "^4.19.2"
-  },
   "name": "router_express",
   "description": "Router 객체로 라우팅 분리하기",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app"
   },
-  "author": "",
-  "license": "MIT"
+  "author": "Happyllama",
+  "license": "MIT",
+
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
